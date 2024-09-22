@@ -1,0 +1,14 @@
+ /* Adding a bit of whimsy with stars in the background */
+ body::before {
+   content: "";
+   position: fixed;
+
+   width: 100%;
+   height: 100%;
+   background-image: url('img.jpg');
+   /* A starry night sky background image */
+   background-size: cover;
+   z-index: -1;
+   opacity: 0.5;
+   /* Ensures the stars are not too distracting */
+ }

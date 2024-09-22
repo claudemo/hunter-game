@@ -1,0 +1,11 @@
+ecs_cluster = "twtr-tf-cluster"
+ecs_key_pair_name = "tom"
+region = "us-east-1"
+availability_zone = "us-east-1a"
+test_vpc = "twtr_vpc"
+test_network_cidr = "10.0.0.0/16"
+test_public_01_cidr = "10.0.0.0/24"
+test_public_02_cidr = "10.0.10.0/24"
+max_instance_size = 3
+min_instance_size = 2
+desired_capacity = 2
